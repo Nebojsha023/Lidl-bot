@@ -6,6 +6,8 @@ from discord.ext import commands
 import os
 import time
 
+client =  commands.Bot(command_prefix='!')
+
 helpResponse = ['']
 helpResponse.append("")
 with open ("README.md", "r") as myfile:
@@ -18,8 +20,6 @@ with open ("README.md", "r") as myfile:
         else: 
             helpResponse[indexCurr] += helpResponseTmp[i]
             
-client =  commands.Bot(command_prefix='!')
-
 
 @client.event
 async def on_ready():
@@ -48,6 +48,6 @@ async def stakupiti(ctx):
         'Krastavac'
 
                 ]
-    await ctx.send('random.choice(responses)')
+    await ctx.send(random.choice(responses))
 
 client.run('OTMzNjY1OTY4NDI3Nzc4MDk5.Yek2MQ.CqKR2EMHnAdqGnJi0RmzlTg2X88')
