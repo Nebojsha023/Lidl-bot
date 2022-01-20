@@ -40,11 +40,11 @@ async def akcije(ctx):
 @client.command()
 async def stakupiti(ctx):
     responses = [
-        'Svezi cevapi'
-        'Pomorandze'
-        'Mleko'
-        'Kaktusi'
-        'Krofna sa punjenjem od kajsije'
+        'Svezi cevapi',
+        'Pomorandze',
+        'Mleko',
+        'Kaktusi',
+        'Krofna sa punjenjem od kajsije',
         'Krastavac'
 
                 ]
