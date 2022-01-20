@@ -45,7 +45,7 @@ async def stakupiti(ctx):
         'Mleko',
         'Kaktusi',
         'Krofna sa punjenjem od kajsije',
-        'Krastavac'
+        'Krastavac',
 
                 ]
     await ctx.send(random.choice(responses))
