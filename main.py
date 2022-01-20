@@ -20,6 +20,7 @@ with open ("README.md", "r") as myfile:
             
 client =  commands.Bot(command_prefix='!')
 
+
 @client.event
 async def on_ready():
     print('Logged in as')
@@ -27,5 +28,9 @@ async def on_ready():
     print(client.user.id)
     print('------')
     global oldtime
+
+@client.command()
+async def lidl(ctx):
+    await ctx.send('Gde stanuje svežina i životna vedrina…U Lidlu, u Lidlu')
 
 client.run('OTMzNjY1OTY4NDI3Nzc4MDk5.Yek2MQ.CqKR2EMHnAdqGnJi0RmzlTg2X88')
