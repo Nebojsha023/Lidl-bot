@@ -37,4 +37,16 @@ async def lidl(ctx):
 async def akcije(ctx):
     await ctx.send('https://www.lidl.rs/ponude-i-akcije')
 
+@client.command()
+async def stakupiti(ctx):
+    responses = [
+        'Svezi cevapi'
+        'Pomorandze'
+        'Mleko'
+        'Kaktusi'
+        'Krofna sa punjenjem od kajsije'
+        'Krastavac'
+
+                ]
+
 client.run('OTMzNjY1OTY4NDI3Nzc4MDk5.Yek2MQ.CqKR2EMHnAdqGnJi0RmzlTg2X88')
