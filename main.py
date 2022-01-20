@@ -33,4 +33,8 @@ async def on_ready():
 async def lidl(ctx):
     await ctx.send('Gde stanuje svezina i zivotna vedrina...U Lidlu, u Lidlu')
 
+@client.command()
+async def akcije(ctx):
+    await ctx.send('https://www.lidl.rs/ponude-i-akcije')
+
 client.run('OTMzNjY1OTY4NDI3Nzc4MDk5.Yek2MQ.CqKR2EMHnAdqGnJi0RmzlTg2X88')
