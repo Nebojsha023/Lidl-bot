@@ -48,5 +48,6 @@ async def stakupiti(ctx):
         'Krastavac'
 
                 ]
+    await ctx.send('random.choice(responses)')
 
 client.run('OTMzNjY1OTY4NDI3Nzc4MDk5.Yek2MQ.CqKR2EMHnAdqGnJi0RmzlTg2X88')
